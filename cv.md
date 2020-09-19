@@ -1,4 +1,4 @@
-#Maxim Trafimov. Student of the JavaScript / Front-end course.
+# Maxim Trafimov. Student of the JavaScript / Front-end course.
 #### Contacts:
 My phone number: +375295150410.
 My email: maximusmiloi@gmail.com

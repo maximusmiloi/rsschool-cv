@@ -1,0 +1,28 @@
+.main {
+    padding-top: 48px;
+    background: var(--color-secondary-light);
+}
+.main-left {
+    display: inline-block;
+    width: 52%;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+.main-right {
+    display: inline-block;
+    width: 42%;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+.main-text-header {
+    margin-top: 24px;
+    color: var(--text-on-primary);
+    font-size: var(--text-h4);
+    margin-bottom: 32px;
+}
+.main-text-body {
+    color: var(--text-on-secondary);
+    font-size: var(--text-body1);
+}

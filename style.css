@@ -1,6 +1,56 @@
-main {
+body {
 	display: flex;
+	background: #e3ffff;
+	justify-content: center;
+}
+main {
+	display: flex;	
+}
+header {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 50px;
+}
+nav > ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+nav > ul > li > a {
+	color: black;
+	text-decoration: none;
+
+}
+nav > ul > li:hover {
+	background: white;
 }
 h1 {
 	text-align: cetner;
 }
+.about {
+	margin-left: 150px
+}
+.container {
+	width: 1020px;
+	margin: auto;
+}
+.col-1 {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin-right:10px;
+}
+.col-1 > section {
+	margin-top: 20px;
+	padding-left: 30px;
+	background: #ffddc9;
+}
+.col-2 {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+}
+.col-2 > section {
+	margin-top: 20px;
+	padding-left: 30px;
+	background: #ffddc9;

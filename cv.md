@@ -15,6 +15,27 @@ I am a beginner JS developer. My goal: to become a full-fledged JS developer, co
 HTML basic, CSS basic, JS basic, bootstrap, small
 experience with NodeJs, basic Git, Blender 3D, Adobe illustartor.
 
+## Task "love-triangle":
+
+```
+let count = 0;
+
+    for (let i = 0; i < preferences.length; i++) {
+        const i2 = preferences[i] - 1;
+        const i3 = preferences[i2] - 1;
+        const i4 = preferences[i3] - 1;
+        if (i === i4 && i !== i2 && i2 !== i3) {
+            console.log(i, i2, i3);
+            count++;
+            preferences[i] = null;
+            preferences[i2] = null;
+            preferences[i3] = null;
+
+        }
+    }
+    return count
+```
+
 ## Education:
 
 Higher technical, master's degree. Specialty "Electric drive and APU".

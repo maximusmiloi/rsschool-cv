@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>rsschool-cv-html</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+      <ul>
+        <li><a href="">Profile</a></li>
+        <li><a href="#edu">Education</a></li>
+        <li><a href="#exp">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Project</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <header class="header" id="header">
+        <img class="photo" src="photo-resume.jpg" alt="photo">
+        <section class="about">
+            <h1>Maksim Trafimau</h1>
+            <h3>Front-end dev</h3>
+            <h2> Profile </h2>
+            <p>I am a beginner JS developer. My goal: to become a full-fledged JS developer, covering front-end and back-end development. 
+            In a few years, become a valuable and demanded specialist in this field</p>
+        </section>
+      </header>
+
+      <main class="main" id="main">
+          <div class="col-1">
+            <section class="edu" id="edu">
+              <h2>Education</h2>
+              <div>
+                <b>2011-2016</b>
+                <p>Belarusian-Russian University. Specialty "Electric drive and APU"</p>
+              </div>
+              <div>
+                <b>2016-2017</b>
+                <p>Belarusian-Russian University. Master's degree.</p>
+              </div>
+              <div>
+                <b>MY English</b>
+                <p>C1</p>
+              </div>
+            </section>
+            <section class="contact" id="contact">
+              <h2>Contact</h2>
+              <div>
+                <b>Phone</b>
+                <p> +375295150410</p>
+                <b>Email</b>
+                <p>maximusmiloi@gmail.com</p>
+                <b>Adress</b>
+                <p>Mogilev</p>
+                <b>Github</b>
+                <p>https://github.com/maximusmiloi</p>
+                <b>Discord</b>
+                <p>Maxim Trafimov (@maximusmiloi)</p>
+              </div>
+            </section>
+            <section class="project" id="project">
+              <h2>My project</h2>
+              <div>
+                <h3>Task "love-triangle"</h3>
+                <pre>
+                  <code>
+                    let count = 0;
+                      for (let i = 0; i &lt; preferences.length; i++) {
+                          const i2 = preferences[i] - 1;
+                          const i3 = preferences[i2] - 1;
+                          const i4 = preferences[i3] - 1;
+                          if (i === i4 && i !== i2 && i2 !== i3) {
+                              console.log(i, i2, i3);
+                              count++;
+                              preferences[i] = null;
+                              preferences[i2] = null;
+                              preferences[i3] = null;
+                          }
+                      }
+                      return count
+                  </code>
+                </pre>
+                <a href="https://github.com/maximusmiloi/love-triangle"> Ссылка</a>
+              </div>
+            </section>
+          </div>
+          <div class="col-2">
+            <section class="exp" id="exp">
+              <h2>Experience</h2>
+              <div class="exp-grid">
+                <div>
+                  <h3>2017-2019</h3>
+                </div>
+                <div>
+                  <p>Work in the specialty</p>
+                </div>
+                <div>
+                  <h3>2018-2021</h3>
+                </div>
+                <div>
+                  <p>Attempts to learn in the Rolling Scope</p>
+                </div>
+                <div>
+                  <h3>2019-2022</h3>
+                </div>
+                <div>
+                  <p>Freelance</p>
+                </div>
+              </div>
+            </section>
+            <section class="skills" id="skills">
+              <h2>Skills</h2>
+              <div>
+                <ul>
+                  <li><p>HTML</p><progress value="50" max="100"></progress><p>50%</p></li>
+                  <li><p>JS</p><progress value="15" max="100"></progress><p>15%</p></li>
+                </ul>
+                <ul>
+                  <li><p>CSS</p><progress value="50" max="100"></progress><p>50%</p></li>
+                  <li><p>FIGMA</p><progress value="70" max="100"></progress><p>70%</p></li>
+                </ul>
+                <ul>
+                  <li><p>Blender 3D</p><progress value="20" max="100"></progress><p>50%</p></li>
+                  <li><p>Adobe Illustrator</p><progress value="20" max="100"></progress><p>70%</p></li>
+                </ul>
+              </div>
+            </section>
+          </div>    
+      </main>
+    </div>
+    <footer class="footer" id="footer">
+      <div>
+        <p> <span> &#169; </span> 2022 </p>
+      </div>
+      <div class="footer-git">
+        <p>My GitHub</p>
+        <a href="https://github.com/maximusmiloi">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div>
+        <a href="https://rs.school/js-stage0/">
+          <img src="logo-rsschool3.png" alt="Rolling Scopes School Logo" class="jsx-2038483508 header-logo" style="height: 30px;">
+        </a>
+      </div>
+    </footer>
+    <script src="https://use.fontawesome.com/6d17126973.js"></script>
+</body>
+</html>
